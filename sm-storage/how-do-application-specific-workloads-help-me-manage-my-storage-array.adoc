@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, application, workloads, 
+summary: Las características de volumen de la carga de trabajo específica de la aplicación dictan cómo la carga de trabajo interactúa con los componentes de la cabina de almacenamiento y ayuda a determinar el rendimiento del entorno con una determinada configuración. 
+---
+= ¿Cómo ayudan las cargas de trabajo específicas de las aplicaciones a gestionar una cabina de almacenamiento?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las características de volumen de la carga de trabajo específica de la aplicación dictan cómo la carga de trabajo interactúa con los componentes de la cabina de almacenamiento y ayuda a determinar el rendimiento del entorno con una determinada configuración.
+
+Una aplicación es un software, como SQL Server o Exchange. Se definen una o más cargas de trabajo que sean compatibles con cada aplicación.

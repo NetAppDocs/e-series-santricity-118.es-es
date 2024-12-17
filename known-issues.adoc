@@ -1,0 +1,18 @@
+---
+sidebar: sidebar 
+permalink: known-issues.html 
+keywords: known, issues, santricity, os 
+summary: Problemas conocidos 
+---
+= Notas de la versión
+:allow-uri-read: 
+
+
+[role="lead"]
+Las notas de la versión están disponibles fuera de este sitio. Se le pedirá que inicie sesión con sus credenciales del sitio de soporte de NetApp.
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885976["11,80 Notas de la versión"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2874254["11,70 Notas de la versión"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2857931["11,60 Notas de la versión"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2842060["11,50 Notas de la versión"^]
+

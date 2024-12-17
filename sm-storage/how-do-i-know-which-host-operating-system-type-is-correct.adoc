@@ -1,0 +1,119 @@
+---
+permalink: sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host operating system, type, 
+summary: El campo Tipo de sistema operativo de host contiene el sistema operativo del host. Puede seleccionar el tipo de host recomendado en la lista desplegable. 
+---
+= ¿Cómo saber cuál es el tipo de sistema operativo de host correcto?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El campo Tipo de sistema operativo de host contiene el sistema operativo del host. Puede seleccionar el tipo de host recomendado en la lista desplegable.
+
+Los tipos de host que aparecen en la lista desplegable dependen del modelo de cabina de almacenamiento y de la versión de firmware. Las versiones más recientes muestran primero las opciones más comunes, que es más probable que sean adecuadas. La aparición en esta lista no implica que la opción esté totalmente admitida.
+
+[NOTE]
+====
+Para obtener más información sobre el soporte de host, consulte la https://imt.netapp.com/matrix/#welcome["Herramienta de matriz de interoperabilidad de NetApp"^].
+
+====
+Es posible que en la lista aparezcan algunos de los tipos de host siguientes:
+
+[cols="35h,~"]
+|===
+| Tipo de sistema operativo de host | Sistema operativo (SO) y controlador multivía 
+
+
+ a| 
+Linux DM-MP (Kernel 3.10 o posterior)
+ a| 
+Compatible con sistemas operativos Linux que usan una solución de conmutación al nodo de respaldo multivía Device Mapper con un Kernel 3,10 o posterior.
+
+
+
+ a| 
+VMware ESXi
+ a| 
+Compatible con sistemas operativos VMware ESXi que ejecutan la arquitectura de complemento nativo multivía (NMP) con el módulo de políticas de tipo de cabina de almacenamiento SATP_ALUA incorporado de VMware.
+
+
+
+ a| 
+Windows (almacenado en clúster o no almacenado en clúster)
+ a| 
+Compatible con configuraciones de Windows almacenado en clúster o no almacenado en clúster que no ejecutan el controlador multivía ATTO.
+
+
+
+ a| 
+Clúster ATTO (todos los sistemas operativos)
+ a| 
+Compatible con todas las configuraciones en clúster que usan el controlador multivía ATTO Technology, Inc.
+
+
+
+ a| 
+Linux (Veritas DMP)
+ a| 
+Compatible con sistemas operativos Linux que usan una solución multivía Veritas DMP.
+
+
+
+ a| 
+Linux (ATTO)
+ a| 
+Compatible con sistemas operativos Linux que usan un controlador multivía ATTO Technology, Inc.
+
+
+
+ a| 
+Mac OS (ATTO)
+ a| 
+Compatible con versiones de Mac OS que usan un controlador multivía ATTO Technology, Inc.
+
+
+
+ a| 
+Windows (ATTO)
+ a| 
+Compatible con sistemas operativos Windows que usan un controlador multivía ATTO Technology, Inc.
+
+
+
+ a| 
+FlexArray (ALUA)
+ a| 
+Compatible con un sistema NetApp FlexArray que usa ALUA para el acceso multivía.
+
+
+
+ a| 
+SVC DE IBM
+ a| 
+Compatible con una configuración de controladora de volúmenes SAN IBM.
+
+
+
+ a| 
+Valor predeterminado de fábrica
+ a| 
+Reservado para arranque inicial de la cabina de almacenamiento. Si su tipo de sistema operativo de host está configurado como Factory Default, cámbielo para que coincida con el sistema operativo del host y el controlador multivía que se ejecuta en el host conectado.
+
+
+
+ a| 
+Linux DM-MP (Kernel 3.9 o anterior)
+ a| 
+Compatible con sistemas operativos Linux que usan una solución de conmutación al nodo de respaldo multivía Device Mapper con un Kernel 3,9 o anterior.
+
+
+
+ a| 
+Windows almacenado en clúster (obsoleto)
+ a| 
+Si su tipo de sistema operativo del host está configurado con este valor, use la configuración Windows (almacenado en clúster o no almacenado en clúster) en su lugar.
+
+|===
