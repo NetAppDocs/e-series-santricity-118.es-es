@@ -1,19 +1,19 @@
 ---
 indexpage:
-  title: Documentación de software de SANtricity 11,80
+  title: Documentación de software SANtricity 11,8
   summary: System Manager y Unified Manager de SANtricity
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: El software SANtricity 11,80 le permite conseguir el mejor rendimiento y sacar
+  lead: El software SANtricity 11,8 le permite conseguir el mejor rendimiento y sacar
     el máximo partido de las cabinas flash híbrido E-Series y de las cabinas all-flash
     EF-Series para aplicaciones con cargas de trabajo intensas, como los análisis
     de datos, la videovigilancia y el backup y recuperación de datos.
   tiles:
   - title: Manos a la obra
     links:
-    - title: Interfaz de System Manager
+    - title: Interfaz de SANtricity System Manager
       url: /sm-interface/overview-interface-sam.html"
-    - title: Interfaz de Unified Manager
+    - title: Interfaz de SANtricity Unified Manager
       url: "/um-admin/overview-interface-unified.html"
     - title: Especificaciones técnicas del software SANtricity
       url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
