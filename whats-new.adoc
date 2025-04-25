@@ -16,6 +16,12 @@ En la siguiente tabla, se describen las nuevas funciones de SANtricity System Ma
 
 
 
+== Nuevas características en la versión 11.80.1R4
+
+Esta versión contiene solo cambios menores y no nuevas características o restricciones. Para obtener más información sobre los cambios en esta versión, consulte el archivo README.
+
+
+
 == Nuevas características en la versión 11.80.1R3
 
 Esta versión contiene solo cambios menores y no nuevas características o restricciones. Para obtener más información sobre los cambios en esta versión, consulte el archivo README.
